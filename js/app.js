@@ -1,0 +1,15 @@
+$(document).ready(function(){
+    $("#navbar").hide();
+    $("#btn-nav").hover(function(){
+        $("#navbar").show();
+    });
+    $("#exit").click(function(){
+        $("#navbar").hide();
+    });
+    $("#navbar").mouseleave(function(){
+        $("#navbar").hide();
+    });
+    $(".header").mouseleave(function(){
+        $("#navbar").hide();
+    });
+});
